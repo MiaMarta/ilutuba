@@ -1,0 +1,26 @@
+body{
+    margin: 80px;
+    background-color: bisque;
+}
+.pealkiri{
+    font-family: 'Dancing Script', cursive;
+    
+    font-size: 60px;
+    color: black;
+    margin-top: auto;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+        
+}
+#left{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    
+}
+@namespace svg url(http://www.w3.org/2000/svg);
+svg|a:link, svg|a:visited {
+    cursor: pointer;
+  }
